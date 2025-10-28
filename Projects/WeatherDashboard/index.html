@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <i class="fas fa-cloud-sun"></i>
+                Weather Dashboard
+            </h1>
+            <p class="subtitle">Get real-time weather information for any city</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="cityInput" class="search-input" placeholder="Enter city name..." autocomplete="off">
+                <button id="searchBtn" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button id="locationBtn" class="location-btn" title="Use my location">
+                <i class="fas fa-location-crosshairs"></i>
+                Use Current Location
+            </button>
+        </div>
+
+        <div id="weatherInfo" class="weather-info hidden">
+            <div class="weather-main">
+                <div class="location-info">
+                    <h2 id="cityName" class="city-name"></h2>
+                    <p id="date" class="date"></p>
+                </div>
+                
+                <div class="weather-icon-section">
+                    <img id="weatherIcon" class="weather-icon" src="" alt="Weather icon">
+                    <p id="weatherDescription" class="weather-description"></p>
+                </div>
+
+                <div class="temperature-section">
+                    <h1 id="temperature" class="temperature"></h1>
+                    <div class="feels-like">
+                        <p>Feels like: <span id="feelsLike"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-card">
+                    <i class="fas fa-droplet"></i>
+                    <div class="detail-info">
+                        <p class="detail-label">Humidity</p>
+                        <p id="humidity" class="detail-value"></p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <i class="fas fa-wind"></i>
+                    <div class="detail-info">
+                        <p class="detail-label">Wind Speed</p>
+                        <p id="windSpeed" class="detail-value"></p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <i class="fas fa-gauge-high"></i>
+                    <div class="detail-info">
+                        <p class="detail-label">Pressure</p>
+                        <p id="pressure" class="detail-value"></p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <i class="fas fa-eye"></i>
+                    <div class="detail-info">
+                        <p class="detail-label">Visibility</p>
+                        <p id="visibility" class="detail-value"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <div class="info-item">
+                    <i class="fas fa-sun"></i>
+                    <span>Sunrise: <span id="sunrise"></span></span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-moon"></i>
+                    <span>Sunset: <span id="sunset"></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="error" class="error-message hidden">
+            <i class="fas fa-exclamation-circle"></i>
+            <p id="errorText"></p>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Built with <i class="fas fa-heart"></i> for Hacktoberfest 2025</p>
+        <p>Powered by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap API</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
