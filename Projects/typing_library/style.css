@@ -1,0 +1,23 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #121212;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    #typewriter {
+      color: #00ffc8;
+      font-weight: bold;
+    }
+ 
