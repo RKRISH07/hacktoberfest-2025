@@ -29,7 +29,7 @@ h1 {
   .tagline {
   font-size: 18px;
   color: #444;
-  font-style: Times New Roman, serif;
+  font-family: Times New Roman, serif;
   margin-top: -5px;
   margin-bottom: 20px;
   text-align: center;
