@@ -51,9 +51,14 @@
     .result h1{
       color: white;
       font-size: 60px;
+      transition: 0.2s;
      
     }
-  
+    .result h1:hover,
+    .result h1:focus-visible{
+      font-size: 80px;
+
+    }
     .result p {
       color: rgb(165, 165, 165);
       font-weight: bold;
