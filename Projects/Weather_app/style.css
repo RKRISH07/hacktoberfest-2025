@@ -26,6 +26,16 @@ h1 {
   margin-bottom: 20px;
   color: #333;
 }
+  .tagline {
+  font-size: 18px;
+  color: #444;
+  font-family: Times New Roman, serif;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
 
 .search-box {
   display: flex;
